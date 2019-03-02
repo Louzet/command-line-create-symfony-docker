@@ -1,0 +1,14 @@
+{
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DockerSymfony\\": "src/"
+        },
+        "classmap": ["Commands"]
+    },
+    "require": {
+        "symfony/console": "^4.2"
+    }
+}
